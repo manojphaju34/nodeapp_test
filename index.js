@@ -2,11 +2,11 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('{ "response": "Hello From Thetips4you" }');
+    res.send('{ "response": "Hello From rentalbox" }');
 });
 
-app.get('/will', function (req, res) {
-    res.send('{ "response": "Hello World" }');
+app.get('/wells', function (req, res) {
+    res.send('{ "response": "Hello from Sterling Wells" }');
 });
 app.get('/ready', function (req, res) {
     res.send('{ "response": " Great!, It works!" }');
